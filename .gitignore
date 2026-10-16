@@ -1,0 +1,17 @@
+# Environnement Python
+.venv/
+venv/
+env/
+
+# Secrets et variables d'environnement
+.env
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+
+# Fichiers système macOS
+.DS_Store
+
+# Journaux
+*.log
