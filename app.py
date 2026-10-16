@@ -24,7 +24,7 @@ st.write("Trouvez la paire parfaite grâce à notre conseiller IA connecté au c
 # ---------------------------------------------------------
 @st.cache_data
 def charger_catalogue():
-    with open("chaussures.json", "r", encoding="utf-8") as file:
+    with open("Chaussures.json", "r", encoding="utf-8") as file:
         return json.load(file)
 
 CATALOGUE = charger_catalogue()
